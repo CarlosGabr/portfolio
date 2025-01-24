@@ -84,6 +84,11 @@
         height: auto;
     }
 
+    .gif__dado {
+        width: 55%;
+        height: auto;
+    }
+
     .apresentacao {
         padding: 5% 15%;
         display: flex;
@@ -152,5 +157,8 @@
         } 
         .rodape {
             font-size: 1rem;
+        }
+        .gif__dado {
+            width: 50%;
         }
     }
