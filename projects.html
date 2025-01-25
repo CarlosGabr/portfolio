@@ -7,52 +7,81 @@
     <title>Projetos</title>
     <link rel="stylesheet" href="styles/projects.css">
 </head>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
-            <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
-        </nav>
-    </header>
+<header>
+  <nav>
+      <div class="menu-toggle" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+      <div class="cabecalho__menu">
+          <a class="cabecalho__menu__link" href="index.html">Home</a>
+          <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+          <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+          <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
+      </div>
+      <div class="cabecalho__menu-mobile">
+          <a class="cabecalho__menu__link" href="index.html">Home</a>
+          <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+          <a class="cabecalho__menu__link" href="skills.html">Habilidades</a>
+          <a class="cabecalho__menu__link" href="projects.html">Projetos</a>
+      </div>
+  </nav>
+</header>
 <body>
     <main class="apresentacao">
-        <!-- <section class="apresentacao__conteudo">
+        <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
-        </section> -->
-        <div class="container">
-            <div class="card-column column-0">
-              <div class="card card-color-0">
-                <div class="border"></div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/deathtostock-00.jpg" />
-                <h1>Hey now, you're an allstar</h1>
-              </div>
-              <div class="card card-color-2">
-                <div class="border"></div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/deathtostock-02.jpg" />
-                <h1>Hey now, you're a rock star</h1>
-              </div>
-            </div>
-            <div class="card-column column-1">
-              <div class="card card-color-1">
-                <div class="border"></div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/deathtostock-01.jpg" />
-                <h1>Get your game on, go play</h1>
-              </div>
-              <div class="card card-color-3">
-                <div class="border"></div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/deathtostock-03.jpg" />
-                <h1>Get the show on, get paid</h1>
-              </div>
-            </div>
-          </div>         
-          <div id="cover" class="cover"></div>          
-          <div id="open-content" class="open-content">
-            <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
-            <img id="open-content-image" src="" />
-            <div class="text" id="open-content-text">
-            </div>
+        </section>
+        <div class="blog-card">
+          <div class="meta">
+            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="#">Carlos Gabriel</a></li>
+              <li class="date">Aug. 24, 2015</li>
+              <li class="tags">
+                <ul>
+                  <li><a>Learn -</a></li>
+                  <li><a> Code -</a></li>
+                  <li><a> HTML -</a></li>
+                  <li><a> CSS</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
+            <div class="description">
+              <h1>Dashboard Excel</h1>
+              <h2>Drive com todos os projetos</h2>
+              <p class="texto__card"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+              <p class="read-more">
+                <a href="#">Read More</a>
+              </p>
+            </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+            <ul class="details">
+              <li class="author"><a href="#">Carlos Gabriel</a></li>
+              <li class="date">July. 15, 2015</li>
+              <li class="tags">
+                <ul>
+                  <li><a>Learn -</a></li>
+                  <li><a> Code -</a></li>
+                  <li><a> JavaScript</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h1>Códigos Python</h1>
+            <h2>Github atualizado com projetos</h2>
+            <p class="texto__card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <p class="read-more">
+              <a href="#">Read More</a>
+            </p>
+          </div>
+        </div>
     </main>
     <footer class="rodape">
         <p class="rodape__texto">Feito com ❤️ por Carlos Dias</p>
