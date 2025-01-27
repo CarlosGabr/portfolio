@@ -56,7 +56,7 @@
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .cabecalho__menu {
         display: none;
     }
@@ -68,7 +68,7 @@
     .cabecalho__menu-mobile {
         display: flex;
     }
-}
+} */
 
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
